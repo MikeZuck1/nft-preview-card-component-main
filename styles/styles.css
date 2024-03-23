@@ -1,0 +1,150 @@
+/* # Front-end Style Guide */
+
+/* ## Layout */
+
+/* The designs were created to the following widths: */
+
+/* - Mobile: 375px */
+/* - Desktop: 1440px */
+
+/* > 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens. */
+
+/* ## Colors */
+
+/* ### Primary */
+
+/* - Soft blue: hsl(215, 51%, 70%) */
+/* - Cyan: hsl(178, 100%, 50%) */
+
+/* ### Neutral */
+
+/* /* - Very dark blue (main BG): hsl(217, 54%, 11%) */ */
+/* - Very dark blue (card BG): hsl(216, 50%, 16%) */
+/* - Very dark blue (line): hsl(215, 32%, 27%) */
+/* - White: hsl(0, 0%, 100%) */
+
+/* ## Typography */
+/* 
+### Body Copy */
+
+/* - Font size (paragraph): 18px */
+
+/* ### Font */
+
+/* - Family: [Outfit](https://fonts.google.com/specimen/Outfit) */
+/* - Weights: 300, 400, 600 */
+
+/* > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. */
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:  hsl(217, 54%, 11%) ;
+}
+
+.nft-content {
+    width: 320px;
+    height: 560px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nft-content-card img {
+    width: 85%;
+    height: 290px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.nft-content-text {
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+
+.title {
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.title h1 {
+    font-size: 20px;
+    font-family: "roboto", sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.title p {
+    color: hsl(215, 51%, 70%);
+    font-family: "roboto", sans-serif;
+}
+
+.left-side, 
+.right-side {
+    display: inline-block;
+}
+
+.left-side p {
+    color: hsl(178, 100%, 50%);
+    margin-right: 90px; /* Espace entre les div */
+}
+
+.right-side p {
+    color: hsl(215, 51%, 70%);
+}
+
+/* ====== FOOTER INFORMATION  ====== */
+.footer-information img {
+    width: 35px;
+    height: 35px;
+}
+
+.footer-information p {
+    font-size: 15px;
+}
+
+.avatar-image, 
+.avatar-information {
+    display: inline-block;
+}
+
+.avatar-image {
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+
+span {
+    color: hsl(0, 0%, 100%);
+} 
+
+/*  */
+.attribution {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution a {
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+}
+
+#front-end-mentor-link {
+    text-decoration: none;
+}
